@@ -35,7 +35,7 @@ def run(episodes, render=True):
         terminated=False # true when we fall in hole or in the goal
         truncated=False # if actions>200
 
-        q_old=q
+        q_old=q #part of my innovation
         steps=0
         while (not terminated and not truncated):
             if random.random()<epsilon:
@@ -50,7 +50,8 @@ def run(episodes, render=True):
             
             q[state,action]=q[state,action]+lr*(reward+df*np.max(q[new_state,:])-q[state,action])
             state=new_state
-            
+
+            #rollback unecessary learned q values
             steps+=1
             if (steps==200 or truncated) and not terminated:
                 q=q_old.copy()
