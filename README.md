@@ -11,8 +11,8 @@ Fact: Achieving goal is tough but making mistakes is very easy and frequent.
  2. Innovation:2- As we are not learning neither normal steps nor mistakes so it is very important for us to explore more to reach the goal so I kept the exploration high initially up to a certain steps(5000 steps in my case) and then I decreased it sharply to not explore but to follow the learned paths more.
     This exploration-exploitation behavior can be achieved by a sigmoid function.
 # Result:
-1.Almost guaranteed convergence
-2.Reduces number of training episodes sharply. 
+ 1.Almost guaranteed convergence
+ 2.Reduces number of training episodes sharply. 
 
 
 
