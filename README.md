@@ -1,8 +1,9 @@
-#How can we achieve convergence by only priortizing what matters the most in Q-learning? 
-AI Algorithms sometimes need a small human touch to see a big difference.
-Solved one of the toughest issues in reinforcement learning’s classic FrozenLake-8x8 environment — without reward shaping or deep learning!
-I derived a new method for convergence of Q-learning in Frozen-lake environment-8x8 of Gymnasium just by removing the noise learned and changing the exploration strategy from linear to sigmoid.
-It is simple yet clever method. It is like attention is all you need prioritizing what matters the most.
+#How can we achieve convergence by only priortizing what matters the most in Q-learning?
+
+ AI Algorithms sometimes need a small human touch to see a big difference.
+ Solved one of the toughest issues in reinforcement learning’s classic FrozenLake-8x8 environment — without reward shaping or deep learning!
+ I derived a new method for convergence of Q-learning in Frozen-lake environment-8x8 of Gymnasium just by removing the noise learned and changing the exploration strategy from linear to sigmoid.
+ It is simple yet clever method. It is like attention is all you need prioritizing what matters the most.
 
 #Problem:
 Q-learning becomes hard to converge when it comes to only rewarding our agent(software) when it achieves its goal specially in gymnasium environment initially developed by OpenAI but now maintained by Farama Foundation.
