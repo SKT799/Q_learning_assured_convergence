@@ -15,8 +15,3 @@ Fact: Achieving goal is tough but making mistakes is very easy and frequent.
  2. Reduces number of training episodes sharply. 
 
 
-
-
-
-
-Result: Almost guaranteed convergence also reduces number of training episodes sharply. 
